@@ -17,7 +17,7 @@
    struct ContentView: View {
     var body: some View {
         LockView(lockType: .both, lockPin: "1234", isEnabled: true, isLockEnabledWhenMoveToBackground: true) {
-            VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/) {
+            VStack(alignment: .center) {
                 Image(systemName: "globe")
                     .font(.system(size: 56).bold())
                 Text("App Lock Example")
