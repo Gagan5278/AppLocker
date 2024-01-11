@@ -14,14 +14,14 @@
 
 ### Example code:
 ```
-   struct ContentView: View {
+struct ContentView: View {
     var body: some View {
         LockView(lockType: .both, lockPin: "1234", isEnabled: true, isLockEnabledWhenMoveToBackground: true) {
             VStack(alignment: .center) {
                 Image(systemName: "globe")
                     .font(.system(size: 56).bold())
                 Text("App Lock Example")
-                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    .font(.title/)
             }
         }
     }
