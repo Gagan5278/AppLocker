@@ -30,5 +30,7 @@ struct ContentView: View {
 ### Youtube link:
 https://youtube.com/shorts/zM_3fAT1Xo0
 
-
+### Screenshots
+![pinauth](https://github.com/Gagan5278/AppLocker/assets/2304583/028dd0c7-20bf-42de-91fc-92e0312c3434)
+![faceauth](https://github.com/Gagan5278/AppLocker/assets/2304583/aee7ba23-89cb-4c22-a21d-7ece8c8ed67c)
 
