@@ -3,4 +3,315 @@
    uuid = "3447833F-08DD-4E58-8C42-A30648EC806E"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "139742D4-B6E8-4092-B8D8-11105A36B55A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppLockerView/View/Lock/LockView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "unlockView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "139742D4-B6E8-4092-B8D8-11105A36B55A - b0aa49f147311444"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in AppLockerView.LockView.unlockView() -&gt; ()"
+                  moduleName = "AppLockerView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/AppLockerView/AppLockerView/View/Lock/LockView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "544">
+               </Location>
+               <Location
+                  uuid = "139742D4-B6E8-4092-B8D8-11105A36B55A - fd4a93d74109567"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in AppLockerView.LockView.unlockView() -&gt; ()"
+                  moduleName = "AppLockerView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/AppLockerView/AppLockerView/View/Lock/LockView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "139742D4-B6E8-4092-B8D8-11105A36B55A - e54f6ad2fae84842"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in AppLockerView.LockView.unlockView() -&gt; ()"
+                  moduleName = "AppLockerView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/AppLockerView/AppLockerView/View/Lock/LockView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "139742D4-B6E8-4092-B8D8-11105A36B55A - c31e9c4248fb2e43"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in AppLockerView.LockView.unlockView() -&gt; ()"
+                  moduleName = "AppLockerView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/AppLockerView/AppLockerView/View/Lock/LockView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "139742D4-B6E8-4092-B8D8-11105A36B55A - 50191afee17d3a91"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 @Sendable () async -&gt; () in AppLockerView.LockView.unlockView() -&gt; ()"
+                  moduleName = "AppLockerView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/AppLockerView/AppLockerView/View/Lock/LockView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "139742D4-B6E8-4092-B8D8-11105A36B55A - e54f6ad2fae84823"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in AppLockerView.LockView.unlockView() -&gt; ()"
+                  moduleName = "AppLockerView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/AppLockerView/AppLockerView/View/Lock/LockView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "364">
+               </Location>
+               <Location
+                  uuid = "139742D4-B6E8-4092-B8D8-11105A36B55A - 50191afee17d3af0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 @Sendable () async -&gt; () in AppLockerView.LockView.unlockView() -&gt; ()"
+                  moduleName = "AppLockerView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/AppLockerView/AppLockerView/View/Lock/LockView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3A694B6A-1DC0-4A5B-977E-8424BCDEFF9A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppLockerView/View/Lock/LockView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "unlockView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3A694B6A-1DC0-4A5B-977E-8424BCDEFF9A - e54f6ad2fae84800"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in AppLockerView.LockView.unlockView() -&gt; ()"
+                  moduleName = "AppLockerView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/AppLockerView/AppLockerView/View/Lock/LockView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "336">
+               </Location>
+               <Location
+                  uuid = "3A694B6A-1DC0-4A5B-977E-8424BCDEFF9A - e54f6ad2fae84800"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in AppLockerView.LockView.unlockView() -&gt; ()"
+                  moduleName = "AppLockerView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/AppLockerView/AppLockerView/View/Lock/LockView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "332">
+               </Location>
+               <Location
+                  uuid = "3A694B6A-1DC0-4A5B-977E-8424BCDEFF9A - b0aa49f1473114e7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in AppLockerView.LockView.unlockView() -&gt; ()"
+                  moduleName = "AppLockerView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/AppLockerView/AppLockerView/View/Lock/LockView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "892">
+               </Location>
+               <Location
+                  uuid = "3A694B6A-1DC0-4A5B-977E-8424BCDEFF9A - fd4a93d741095c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in AppLockerView.LockView.unlockView() -&gt; ()"
+                  moduleName = "AppLockerView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/AppLockerView/AppLockerView/View/Lock/LockView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "3A694B6A-1DC0-4A5B-977E-8424BCDEFF9A - e54f6ad2fae848e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in AppLockerView.LockView.unlockView() -&gt; ()"
+                  moduleName = "AppLockerView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/AppLockerView/AppLockerView/View/Lock/LockView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "3A694B6A-1DC0-4A5B-977E-8424BCDEFF9A - c31e9c4248fb2ee0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in AppLockerView.LockView.unlockView() -&gt; ()"
+                  moduleName = "AppLockerView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/AppLockerView/AppLockerView/View/Lock/LockView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B68F1FC-4742-40EB-B439-ABCCAFDF52EC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppLockerView/View/Lock/LockView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "unlockView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9B68F1FC-4742-40EB-B439-ABCCAFDF52EC - b0aa49f1473114e7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in AppLockerView.LockView.unlockView() -&gt; ()"
+                  moduleName = "AppLockerView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/AppLockerView/AppLockerView/View/Lock/LockView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "892">
+               </Location>
+               <Location
+                  uuid = "9B68F1FC-4742-40EB-B439-ABCCAFDF52EC - fd4a93d741095c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in AppLockerView.LockView.unlockView() -&gt; ()"
+                  moduleName = "AppLockerView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/AppLockerView/AppLockerView/View/Lock/LockView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "9B68F1FC-4742-40EB-B439-ABCCAFDF52EC - e54f6ad2fae848e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in AppLockerView.LockView.unlockView() -&gt; ()"
+                  moduleName = "AppLockerView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/AppLockerView/AppLockerView/View/Lock/LockView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "9B68F1FC-4742-40EB-B439-ABCCAFDF52EC - c31e9c4248fb2ee0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in AppLockerView.LockView.unlockView() -&gt; ()"
+                  moduleName = "AppLockerView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/AppLockerView/AppLockerView/View/Lock/LockView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

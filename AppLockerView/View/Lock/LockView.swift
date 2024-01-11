@@ -24,7 +24,7 @@ struct LockView<Content: View>: View {
     @State private var isNoBiometricEnabled: Bool = false
     var numberOfKeys: Int = 4
     
-    @State private var authContext = LAContext()
+//    @State private var authContext = /*LAContext()*/
     @Environment(\.scenePhase) private var scenePhase
     
     @State private var isFaceIDDeclinedByUser: Bool = false
@@ -79,23 +79,20 @@ struct LockView<Content: View>: View {
             if newValue != .active && isLockEnabledWhenMoveToBackground {
                 isUnlocked = false
                 pinNumber = ""
+                isFaceIDDeclinedByUser = false
             }
             
             if newValue == .active && !isUnlocked && isEnabled && !isFaceIDDeclinedByUser {
                 unlockView()
-            }
-            
-            if newValue == .background || newValue == .inactive {
-                isUnlocked = false
             }
         }
     }
     
     private func unlockView() {
         Task {
-            if isBiometricAuthAvailable && lockType != .numberPad{
+            if isBiometricAuthAvailable && lockType != .numberPad {
                 do {
-                    let result = try await authContext.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: "Unlock")
+                    let result = try await LAContext().evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: "Unlock")
                         print(result)
                         withAnimation(.snappy, completionCriteria: .logicallyComplete) {
                             isUnlocked = true
@@ -114,7 +111,7 @@ struct LockView<Content: View>: View {
     }
     
     private var isBiometricAuthAvailable: Bool {
-        authContext.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: nil)
+        LAContext().canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: nil)
     }
 }
 
