@@ -12,12 +12,12 @@ struct ContentView: View {
         LockView(lockType: .both, lockPin: "1234", isEnabled: true, isLockEnabledWhenMoveToBackground: true) {
             VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/) {
                 Image(systemName: "globe")
-                    .font(.largeTitle)
+                    .font(.system(size: 56).bold())
                 Text("App Lock Example")
                     .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
             }
         }
-}
+    }
 }
 
 #Preview {

@@ -14,6 +14,10 @@
 		5DD68B6A2B5073950094F5C3 /* AppLockerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD68B692B5073950094F5C3 /* AppLockerViewTests.swift */; };
 		5DD68B742B5073960094F5C3 /* AppLockerViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD68B732B5073960094F5C3 /* AppLockerViewUITests.swift */; };
 		5DD68B762B5073960094F5C3 /* AppLockerViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD68B752B5073960094F5C3 /* AppLockerViewUITestsLaunchTests.swift */; };
+		5DD68B862B5073EE0094F5C3 /* LockType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD68B852B5073EE0094F5C3 /* LockType.swift */; };
+		5DD68B882B5074100094F5C3 /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD68B872B5074100094F5C3 /* LockView.swift */; };
+		5DD68B8B2B5074740094F5C3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD68B8A2B5074740094F5C3 /* Constants.swift */; };
+		5DD68B8E2B5074A50094F5C3 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD68B8D2B5074A50094F5C3 /* View+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		5DD68B6F2B5073960094F5C3 /* AppLockerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppLockerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD68B732B5073960094F5C3 /* AppLockerViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLockerViewUITests.swift; sourceTree = "<group>"; };
 		5DD68B752B5073960094F5C3 /* AppLockerViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLockerViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5DD68B852B5073EE0094F5C3 /* LockType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockType.swift; sourceTree = "<group>"; };
+		5DD68B872B5074100094F5C3 /* LockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
+		5DD68B8A2B5074740094F5C3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5DD68B8D2B5074A50094F5C3 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +103,9 @@
 		5DD68B562B5073940094F5C3 /* AppLockerView */ = {
 			isa = PBXGroup;
 			children = (
-				5DD68B572B5073940094F5C3 /* AppLockerViewApp.swift */,
-				5DD68B592B5073940094F5C3 /* ContentView.swift */,
+				5DD68B892B5074680094F5C3 /* Utility */,
+				5DD68B832B5073BC0094F5C3 /* System */,
+				5DD68B822B5073B00094F5C3 /* View */,
 				5DD68B5B2B5073950094F5C3 /* Assets.xcassets */,
 				5DD68B5D2B5073950094F5C3 /* AppLockerView.entitlements */,
 				5DD68B5E2B5073950094F5C3 /* Preview Content */,
@@ -127,6 +136,49 @@
 				5DD68B752B5073960094F5C3 /* AppLockerViewUITestsLaunchTests.swift */,
 			);
 			path = AppLockerViewUITests;
+			sourceTree = "<group>";
+		};
+		5DD68B822B5073B00094F5C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5DD68B592B5073940094F5C3 /* ContentView.swift */,
+				5DD68B842B5073DA0094F5C3 /* Lock */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5DD68B832B5073BC0094F5C3 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				5DD68B572B5073940094F5C3 /* AppLockerViewApp.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		5DD68B842B5073DA0094F5C3 /* Lock */ = {
+			isa = PBXGroup;
+			children = (
+				5DD68B852B5073EE0094F5C3 /* LockType.swift */,
+				5DD68B872B5074100094F5C3 /* LockView.swift */,
+			);
+			path = Lock;
+			sourceTree = "<group>";
+		};
+		5DD68B892B5074680094F5C3 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				5DD68B8C2B5074960094F5C3 /* Extension */,
+				5DD68B8A2B5074740094F5C3 /* Constants.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		5DD68B8C2B5074960094F5C3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5DD68B8D2B5074A50094F5C3 /* View+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +311,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DD68B8B2B5074740094F5C3 /* Constants.swift in Sources */,
+				5DD68B862B5073EE0094F5C3 /* LockType.swift in Sources */,
+				5DD68B882B5074100094F5C3 /* LockView.swift in Sources */,
 				5DD68B5A2B5073940094F5C3 /* ContentView.swift in Sources */,
+				5DD68B8E2B5074A50094F5C3 /* View+Extension.swift in Sources */,
 				5DD68B582B5073940094F5C3 /* AppLockerViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,11 +473,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = AppLockerView/AppLockerView.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AppLockerView/Preview Content\"";
+				DEVELOPMENT_TEAM = 5DR5YYJ2CC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Some Text to explain Access";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -432,13 +491,14 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.AppLockerView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.schwarzit.digitalTwin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -453,11 +513,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = AppLockerView/AppLockerView.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AppLockerView/Preview Content\"";
+				DEVELOPMENT_TEAM = 5DR5YYJ2CC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Some Text to explain Access";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -468,13 +531,14 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.AppLockerView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.schwarzit.digitalTwin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
